@@ -16,20 +16,33 @@
 .sidebar{
    background-color: #0ea5e9;
    grid-area: 1 / 1 / 11 / 2;
-   display:inline-grid;
+   display:flex;
+   flex-direction: column;
    color:white;
+   padding:1em;
+   box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.1);
 }
 
 .navigation{
    display:inline-grid;
-   align-items: center; 
+   gap: 1.5rem;
+   padding:1em;
+   margin-top:2rem;
 }
 
 .dashboard,.navigation>*{
-   display:inline-grid;
-   grid-template-columns: auto auto; 
+   display:flex;
+   justify-content: left;
    align-items: center; 
-   gap:1.25rem;
+   gap:1rem;
+}
+
+.dashboard img{
+   width:4rem;
+}
+
+.navigation img{
+   width:2rem;
 }
 
 .header{
