@@ -14,7 +14,7 @@
 }
 
 .sidebar{
-   background-color: #0ea5e9;
+   background-color: #1992d4;
    grid-area: 1 / 1 / 11 / 2;
    display:flex;
    flex-direction: column;
@@ -49,8 +49,6 @@
    cursor: pointer;
    color: rgb(255, 255, 210);
 }
-
-
 
 .header{
    grid-area: 1 / 2 / 3 / 7;
@@ -106,7 +104,18 @@
 }
 
 .header-greet {
-   
+   gap:1.5rem;
+}
+
+.greeting{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   font-weight: bold;
+}
+
+.greeting h3{
+   font-size: 2rem;
 }
 
 .header-greet img{
@@ -117,12 +126,17 @@
    gap:2rem;
 }
 
-button {
+.action-buttons button{
    background-color:  #1992d4;
    color: white;
+   border:none;
+   width: 8rem;
+   border-radius: 25px;
+   padding:2% 6%;
+   font-size:1.5rem;
 }
 
-button:hover {
+.action-buttons button:hover {
    background-color:  #82d3ff;
    transform: scale(1.1);
 }
