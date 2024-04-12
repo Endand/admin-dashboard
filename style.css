@@ -56,7 +56,9 @@
    grid-area: 1 / 2 / 3 / 7;
    display: grid;
    grid-template-rows: auto auto;
-   padding:1rem 80px 10px 60px;
+   padding:1rem 9rem 0.5rem 4rem;
+   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+   z-index:1;
 }
 
 .header>*,.header>*>*{
@@ -84,7 +86,6 @@
 
 .my-profile {
    gap:2rem;
-   padding-right:3rem;
 }
 
 .my-profile .profile-pic{
@@ -114,7 +115,6 @@
 
 .action-buttons {
    gap:2rem;
-   padding-right:3rem;
 }
 
 button {
@@ -135,7 +135,7 @@ button:hover {
 }
 
 .projects{
-   background-color: rgb(236, 172, 172);
+   
    grid-area: 1 / 1 / 3 / 3;
 }
 
